@@ -29,15 +29,14 @@
 
 ### 5. 보조 스크립트
 - **`Recording_test/`**: 오디오 녹음 및 패키징 테스트 코드
-- **`pptx_to_img.py`**: 파워포인트 슬라이드를 이미지로 변환
-- **`create_montage.py`**: 이미지/데이터 시각화를 위한 몽타주 생성
 
-## 실행 예시
+## 실행
 ```bash
 python data_collector.py        # 실시간 경기 데이터 수집 시작
 python preprocessing/main.py    # 전처리 파이프라인 실행
 python model_event.py           # 이벤트 기반 분석 실행
-````
+```
+- **배포**: 실제 환경에서는 모든 환경에서 실행할 수 있도록 cx_Freeze Module을 사용하여, exe로 빌드하여 배포함. 
 
 ## 기술 스택
 
