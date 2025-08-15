@@ -107,9 +107,9 @@ get_team_info()
 def send_log_file(file_path: str):
     """저장된 txt 로그 파일을 이메일로 전송 (동기, 호출부에서 to_thread로 비동기화)"""
     try:
-        sender_email = "datacollection.ixlab@gmail.com"
+        sender_email = ""
         sender_password = ""
-        receiver_email = "datacollection.ixlab@gmail.com"
+        receiver_email = ""
 
         msg = MIMEMultipart()
         msg["From"] = sender_email
