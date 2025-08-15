@@ -138,9 +138,9 @@ def compress_and_send_files(folder_path):
         # --- 여기부터 수정된 부분 ---
 
         # email configuration 
-        sender_email = "datacollection.ixlab@gmail.com"
+        sender_email = ""
         sender_password = ""
-        receiver_email = "datacollection.ixlab@gmail.com"
+        receiver_email = ""
 
         msg = MIMEMultipart()
         msg['From'] = sender_email
